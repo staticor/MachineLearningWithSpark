@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/steve/Dropbox (个人)/Kata/learnScala/machinelearning_with_spark/project1/src/main/scala/FirstScalaApp.scala:9:58: not found: value t[0m
+[0m[[0m[31merror[0m] [0m[0m    val data = rawdata.map(line => line.split(",")).map( t = > (t(0), t(1), t(2)) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

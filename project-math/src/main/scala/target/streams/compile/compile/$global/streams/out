@@ -1,0 +1,55 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:1:8: not found: object breeze[0m
+[0m[[0m[31merror[0m] [0m[0mimport breeze.linalg.DenseVector[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:2:8: not found: object breeze[0m
+[0m[[0m[31merror[0m] [0m[0mimport breeze.math.Complex[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:3:8: not found: object breeze[0m
+[0m[[0m[31merror[0m] [0m[0mimport breeze.linalg.{DenseVector, SparseVector}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:4:8: not found: object breeze[0m
+[0m[[0m[31merror[0m] [0m[0mimport breeze.linalg.DenseMatrix[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:5:8: not found: object breeze[0m
+[0m[[0m[31merror[0m] [0m[0mimport breeze.linalg.norm[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:6:8: not found: object breeze[0m
+[0m[[0m[31merror[0m] [0m[0mimport breeze.linalg._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:7:8: not found: object breeze[0m
+[0m[[0m[31merror[0m] [0m[0mimport breeze.stats.{mean, median}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:13:15: not found: value Complex[0m
+[0m[[0m[31merror[0m] [0m[0m      val i = Complex.i  // import breeze.math.Complex[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:26:16: not found: value DenseVector[0m
+[0m[[0m[31merror[0m] [0m[0m      val dv = DenseVector(2f, 0f, 3f, 2f, -1f)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:30:16: not found: type SparseVector[0m
+[0m[[0m[31merror[0m] [0m[0m      val sv : SparseVector[Double] = SparseVector(5)()[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:30:39: not found: value SparseVector[0m
+[0m[[0m[31merror[0m] [0m[0m      val sv : SparseVector[Double] = SparseVector(5)()[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:34:14: not found: type SparseVector[0m
+[0m[[0m[31merror[0m] [0m[0m      val m: SparseVector[Double] = sv.mapActivePairs( (i, x) => x+1)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:37:16: not found: value DenseVector[0m
+[0m[[0m[31merror[0m] [0m[0m      val v1 = DenseVector(3, 7, 8.1, 4, 5)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:38:16: not found: value DenseVector[0m
+[0m[[0m[31merror[0m] [0m[0m      val v2 = DenseVector(1, 9, 3, 2.3, 8)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:48:15: not found: value mean[0m
+[0m[[0m[31merror[0m] [0m[0m      println(mean(v1))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:49:15: not found: value median[0m
+[0m[[0m[31merror[0m] [0m[0m      println(median(v1))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:54:16: not found: value DenseMatrix[0m
+[0m[[0m[31merror[0m] [0m[0m      val m1 = DenseMatrix((1,2), (3, 4))[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steveyoung/MachineLearningWithSpark/project-math/src/main/scala/FoobarMath.scala:55:16: not found: value DenseMatrix[0m
+[0m[[0m[31merror[0m] [0m[0m      val m2 = DenseMatrix.zeros[Int](4, 5)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m18 errors found[0m
